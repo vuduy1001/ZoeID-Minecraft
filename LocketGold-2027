@@ -1,0 +1,16 @@
+#!name=Locket Gold 🏅 - ZoeID Pro
+#!desc=Mở khoá premium cho ứng dụng Locket Widget. Được tùy biến và lưu trữ bởi ZoeID.
+# 🚀 Rewrite by: ZoeID 
+# 🛠️ Source Base: ZoeID - Minecraft & William - Nguyễn Vũ Duy
+
+[General]
+user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
+update-url = https://raw.githubusercontent.com/vuduy1001/ZoeID-Minecraft/refs/heads/main/Module/LocketGold-2027
+
+[Script]
+# ~ Enhanced for Shadowrocket, Surge, & LanceX
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/NightmarketServer/Locket/main/locketfix3.js, requires-body=true, max-size=-1, timeout=120
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/NightmarketServer/Locket/main/header2.js, timeout=120
+
+[MITM]
+hostname = api.revenuecat.com, raw.githubusercontent.com
