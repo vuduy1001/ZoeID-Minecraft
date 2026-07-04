@@ -1,11 +1,11 @@
 #!name=Locket Gold 🏅 - ZoeID Pro
 #!desc=Mở khoá premium cho ứng dụng Locket Widget. Được tùy biến và lưu trữ bởi ZoeID.
-# 🚀 Rewrite by: ZoeID 
-# 🛠️ Source Base: ZoeID - Minecraft & William - Nguyễn Vũ Duy
+# 🚀 Rewrite by: ZoeID (vuduy1001)
+# 🛠️ Source Base: Nightmarket Server & William - Thành Long
 
 [General]
 user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
-update-url = https://raw.githubusercontent.com/vuduy1001/ZoeID-Minecraft/refs/heads/main/Module/LocketGold-2027
+update-url = https://raw.githubusercontent.com/vuduy1001/ZoeID-Minecraft/refs/heads/main/LocketGold-2027
 
 [Script]
 # ~ Enhanced for Shadowrocket, Surge, & LanceX
