@@ -1,6 +1,6 @@
 # Shadowrocket: Premium Unlocker All In One Pro Max Ultimate
 [General]
-update-url = https://raw.githubusercontent.com/vuduy1001/ZoeID-Minecraft/refs/heads/main/Module/10%20in%201%20ZoeID
+update-url = https://raw.githubusercontent.com/vuduy1001/zoeid-website/refs/heads/main/Module/10%20in%201%20ZoeID
 
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
